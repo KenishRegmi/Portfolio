@@ -1,0 +1,148 @@
+body{
+  background-image: url(https://img.freepik.com/free-vector/red-black-patterned-background-vector_53876-63162.jpg?t=st=1733407836~exp=1733411436~hmac=b53eb3748a5dc127f39e932f078d9c8dbd32590034ee0ca994f9f885b0d1c658&w=740);
+  background-size: cover;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items{
+justify-content: space-evenly;
+  display: flex;
+  list-style: none
+}
+.nav-items li{
+padding-right: 80px;
+  
+}
+.nav-logo{
+  margin-left: 30px;
+  color: orange;
+}
+.nav-items li a{
+  color: white;
+  text-decoration: none;
+}
+.nav-items li a:hover{
+color: orange;
+text-decoration: underline;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.container-left
+{
+}
+.leftchild-1{
+  margin-top: 60px;
+  margin-left: 50px;
+  color: white;
+}
+.leftchild1-title{
+  color: orange;
+}
+.leftchild-logo{
+  margin-top: -10px;
+  color: white;
+  font-size: 400%;
+  margin-left: 50px;
+}
+.leftchild-3{
+  color: white;
+  font-size: 115%;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+.leftchild-4{
+  margin-left: 50px;
+}
+.hireme{
+  font-size: 100%;
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hireme:hover{
+background-color: aquamarine;
+}
+.icons{
+  margin-left: 150px;
+}
+
+.icons img{
+  width: 30px;
+  height: 30px;
+padding: 30px;
+}
+.rightimg img{
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+
+}
+.foot-container
+{
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+.foot-inp{
+  background-color: black;
+  width: 500px;
+  height: 30px;
+  border-radius: 4px;
+}
+.Sub{
+margin-left: 10px;
+  width: 80px;
+  height: 35px;
+  background-color: orange;
+  color: white;
+  border-radius:4px;
+}
+.Sub:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.foot-p{
+  font-size: 115%;
+  color: orange;
+  justify-content: center;
+}
+.foot-items{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top:10px ;
+
+
+}
+.foot-items li a{
+  text-decoration: none;
+  color: white;
+
+}
+.foot-items li{
+  padding-left: 50px;
+}
+.foot-icons{
+  padding-top: 10px;
+}
+.foot-icons img{
+  width: 30px;
+  height: 30px;
+  padding-left: 50px;
+}
+.foot-items li a:hover{
+  color: orange;
+  text-decoration: underline;
+}
